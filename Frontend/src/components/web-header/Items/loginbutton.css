@@ -1,0 +1,29 @@
+.shine-on-hover {
+    position: relative;
+    background-color: #8000FF;
+    border-radius: 11px;
+    overflow: hidden;
+}
+
+.shine-on-hover::before {
+    content: "";
+    border-radius: 11px;
+    position: absolute;
+    inset: 0;
+    /* Fills the entire button area */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(7, 94, 255, 0) 50%, rgba(255, 255, 255, 0.712) 100%);
+    background-size: 300%;
+    /* Creates the moving shine effect */
+    animation: shine 3s linear infinite;
+    /* Animation properties */
+}
+
+@keyframes shine {
+    from {
+        background-position: 0;
+    }
+
+    to {
+        background-position: 200%;
+    }
+}

@@ -1,0 +1,5 @@
+/* In your CSS file */
+.transition-width {
+    transition: width 0.2s ease-out;
+  }
+  

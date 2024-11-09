@@ -1,0 +1,86 @@
+/* Add smooth transitions for the range slider */
+.custom-range {
+    width: 100%;
+    height: 5px;
+    background: transparent;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+    --value: 0;
+    transition: background 0.2s ease;
+  }
+  
+  .custom-range::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    background: linear-gradient(to right, #8a00ff var(--value), #fff var(--value));
+    border-radius: 1px;
+  }
+  
+  .custom-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #ffffff;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-top: -5px;
+    border: 1px solid #8a00ff;
+  }
+  
+  .custom-range::-moz-range-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    background: linear-gradient(to right, #8a00ff var(--value), #fff var(--value));
+    border-radius: 1px;
+  }
+  
+  .custom-range::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background: #ffffff;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #8a00ff;
+  }
+  
+  .custom-range::-ms-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  
+  .custom-range::-ms-fill-lower {
+    background: #8a00ff;
+    border: 0;
+  }
+  
+  .custom-range::-ms-fill-upper {
+    background: #fff;
+    border: 0;
+  }
+  
+  .custom-range::-ms-thumb {
+    width: 15px;
+    height: 15px;
+    background: #ffffff;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #8a00ff;
+  }
+  
+  
+  .custom-range:focus::-ms-fill-lower {
+    background: #8a00ff;
+  }
+  
+  .custom-range:focus::-ms-fill-upper {
+    background: #fff;
+  }
+  
