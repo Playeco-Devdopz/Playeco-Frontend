@@ -7,7 +7,7 @@
     <strong>Frontend for Playeco - A platform for streaming, sharing, and interacting with gameplay content.</strong>
   </p>
   <p>
-    <a href="https://playeco.live">Live Demo</a> |
+    <a href="https://playeco-version-2-0.vercel.app/">Live Demo</a> |
     <a href="https://github.com/Playeco-Devdopz/Playeco-Frontend/issues">Report Bug</a> |
     <a href="#contributing">Contribute</a>
   </p>
