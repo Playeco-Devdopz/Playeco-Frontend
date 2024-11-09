@@ -31,6 +31,7 @@
 
 - 🔒 **User Authentication**: Secure login and profile management
 - 📹 **Video Uploading**: Integrated video and thumbnail uploading
+- 🔍 **Videoo Searching System**: Get Fav content creator video fastly
 - 💸 **UPI Payment**: Seamless in-app transactions
 - 🕹 **Game Feed**: Curated content feed for gaming enthusiasts
 - 🎨 **Responsive Design**: Optimized for both mobile and desktop using Tailwind CSS
