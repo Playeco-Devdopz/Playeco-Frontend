@@ -1,7 +1,7 @@
 ![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)
 
 <div align="center">
-  <img src="https://your-logo-url.com/logo.png" alt="Playeco Logo" width="120">
+  <img src="[https://your-logo-url.com/logo.png](https://avatars.githubusercontent.com/u/176520355?v=4&size=64)" alt="Playeco Logo" width="120">
   <h1>Playeco Frontend</h1>
   <p>
     <strong>Frontend for Playeco - A platform for streaming, sharing, and interacting with gameplay content.</strong>
